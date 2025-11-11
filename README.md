@@ -1,4 +1,4 @@
-# AstroNvim Template
+# Yeah, I do think this preconfigured Nvim is a bloat. See [my own config](https://github.com/fspamo/nvim)
 
 **NOTE:** This is for AstroNvim v5+
 
