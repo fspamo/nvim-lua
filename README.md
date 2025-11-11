@@ -1,5 +1,6 @@
 # Yeah, I do think this preconfigured Nvim is bloated. See [my own config.](https://github.com/fspamo/nvim)
-# Shoutout to Diogo-ss for [42Header Plugin](https://github.com/Diogo-ss/42-header.nvim)
+# This configuration has the 42 Header plugin 
+Shoutout to Diogo-ss for [42Header Plugin](https://github.com/Diogo-ss/42-header.nvim)
 **NOTE:** This is for AstroNvim v5+
 
 A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
