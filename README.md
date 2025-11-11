@@ -32,3 +32,4 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+## ⚠️ Autoformat on Save is disabled in configuration file. Make sure to check if necessary. ⚠️
