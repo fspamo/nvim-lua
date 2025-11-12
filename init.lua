@@ -25,7 +25,12 @@ end
 
 vim.keymap.set("n", "<space>f", "mzggVG=`z", { desc = "Format entire buffer" })
 vim.keymap.set("n", "<space>s", ":w<CR>", { desc = "Save file" })
-vim.keymap.set("n", "<space>s", ":w | Stdheader<CR>", { desc = "Save file and update header" })
+--vim.keymap.set("n", "<space>s", ":w | Stdheader<CR>", { desc = "Save file and update header" })
+vim.keymap.set("n", "<space>s", function()
+    vim.cmd("Stdheader")
+    vim.cmd("w")
+end, { desc = "Update header and save file" })
+
 
 require "lazy_setup"
 require "polish"
