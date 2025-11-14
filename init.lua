@@ -31,6 +31,14 @@ vim.keymap.set("n", "<space>s", function()
     vim.cmd("w")
 end, { desc = "Update header and save file" })
 
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "python", "c", "cpp" },
+  callback = function()
+    vim.opt_local.tabstop = 4
+    vim.opt_local.shiftwidth = 4
+    vim.opt_local.expandtab = false -- use spaces, recommended for Python
+  end,
+})
 
 require "lazy_setup"
 require "polish"
