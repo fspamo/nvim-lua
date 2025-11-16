@@ -23,7 +23,7 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
-vim.keymap.set("n", "<space>f", "mzggVG=`z", { desc = "Format entire buffer" })
+vim.keymap.set("n", "<space>f", "mzggVG=`zzz", { desc = "Format entire buffer" })
 vim.keymap.set("n", "<space>s", ":w<CR>", { desc = "Save file" })
 --vim.keymap.set("n", "<space>s", ":w | Stdheader<CR>", { desc = "Save file and update header" })
 vim.keymap.set("n", "<space>s", function()
